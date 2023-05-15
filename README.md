@@ -14,4 +14,4 @@ Much of the behavior cloning code is used from MOSAIC since we used the vanilla 
 
 **Data Collection**
 To generate expert two staged and three staged task of the Pick&Place task environment, run the following:
-./collect_data.sh
+`./collect_data.sh`
