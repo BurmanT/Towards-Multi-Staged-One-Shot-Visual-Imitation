@@ -10,8 +10,10 @@ Much of the behavior cloning code is used from MOSAIC since we used the vanilla 
 
 `requirements.txt` has the python packages we used for this project.
 
-`train_any.py` trains a single task agent as specified in the mosaic repository
+`train_any.py` trains a single task agent using behvaior cloining as specified in the mosaic repository
 
 **Data Collection**
 To generate expert two staged and three staged task of the Pick&Place task environment, run the following:
 `./collect_data.sh`
+
+`/tasks/robosuite_env/controllers/expert_pick_place.py` contains multi-stage expert trajectory for Pick&Place environment
