@@ -9,3 +9,9 @@ The `train_latent.py` file has the code used for training the latent planner.
 Much of the behavior cloning code is used from MOSAIC since we used the vanilla MOSAIC behavior cloning code to run the bseline experiments as well as use it in combination with our latent planner. 
 
 `requirements.txt` has the python packages we used for this project.
+
+`train_any.py` trains a single task agent as specified in the mosaic repository
+
+**Data Collection**
+To generate expert two staged and three staged task of the Pick&Place task environment, run the following:
+./collect_data.sh
